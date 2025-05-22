@@ -607,7 +607,6 @@ header .header__container .input__group input{
   }
   .footer__container {
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 3rem;
     text-align: center;
   }
   .footer__col.card4 {
@@ -734,9 +733,16 @@ header .header__container .input__group input{
 }
 
 @media (width < 500px) {
-  .section__tour .video__container {
-    max-width: 400px;
+  header .header__container h1 {
+    font-size: 2rem;
   }
+  .section__tour .video__container {
+    max-width: 360px;
+  }
+  .section__tour h1 {
+    font-size: 2rem;
+  }
+  
 }
 
 /* 
